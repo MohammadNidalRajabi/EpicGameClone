@@ -1,0 +1,73 @@
+.Free_Game_Item
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    cursor: pointer;
+}
+.Item_State
+{
+    width: 100%;
+    height: 20px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(0, 120, 242);
+    color: white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.Item_State h3{
+    margin: 0px;
+    color: white;
+    font-size: 15px;
+    font-weight:200;
+    letter-spacing: 0.17px;
+    line-height: 1.5;
+}
+.Item_Info{
+    
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5px;
+}
+.Item_Info h3
+{
+    margin: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight:200;
+    letter-spacing: 0.17px;
+    line-height: 1.5;
+}
+.Item_Info h4
+{
+    margin: 0px;
+    color: rgb(161, 161, 161);
+    font-weight:200;
+    font-size: 15px;
+    letter-spacing: 0.17px;
+    line-height: 1.5;
+}
+.Item_Image
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Free_Game_Item img
+{
+        width: 100%;
+        height: 400px;
+        margin-bottom: 0px;
+
+}
+.Free_Game_Item img:hover
+{
+    filter: invert(10%);
+}

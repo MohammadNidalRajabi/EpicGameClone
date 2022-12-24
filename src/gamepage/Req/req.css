@@ -1,0 +1,21 @@
+.req{
+    margin: 30px;
+    display: flex;
+    background-color: rgb(32 32 32);
+    color: #fff;
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.col{
+    color: rgb(127 140 127);
+    margin-top: 70px;
+}

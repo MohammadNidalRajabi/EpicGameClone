@@ -1,0 +1,36 @@
+.social-container {
+    background-color: rgb(32 32 32);
+margin: 30px;  
+  width: 100vh;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  a.social {
+    margin: 0 1rem;
+    transition: transform 250ms;
+    display: inline-block;
+  }
+  
+  a.social:hover {
+    transform: translateY(-2px);
+  }
+  
+  a.youtube {
+   color:  rgb(160 160 160);
+  }
+  
+  a.facebook {
+    color:  rgb(160 160 160);
+}
+  
+  a.twitter {
+    color:  rgb(160 160 160);
+}
+  
+  a.instagram {
+    color:  rgb(160 160 160);
+}
+  

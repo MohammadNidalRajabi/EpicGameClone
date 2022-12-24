@@ -1,0 +1,28 @@
+
+
+.mainn{
+  padding: 80px;
+    /* text-align: start; */
+    margin-top:30px ;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;  
+    align-items: flex-start;
+    /* align-content:flex-end ;
+    align-items: flex-start; */
+    color: #fff;
+
+}
+  .flex_row{
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+  }
+  
+.thumbnail{
+  padding-left: 20px;
+}
+.clicked{
+  border: 1px solid #fff;
+}
+

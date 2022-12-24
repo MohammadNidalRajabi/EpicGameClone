@@ -1,0 +1,11 @@
+.Image404
+{
+    width: 100%;
+    height: max-content;
+
+}
+.Image404 img
+{
+    width: 100%;
+    height: 100%;
+}

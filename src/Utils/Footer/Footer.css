@@ -1,0 +1,262 @@
+.Footer * {
+    transition-duration: 0.2s;
+   
+}
+
+.Footer {
+    width: 100%;
+    left: 0px;
+    background: #202020;
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 30px;
+    height: max-content;
+}
+
+.Footer h4 {
+    margin: 5px;
+    font-size: small;
+    font-weight: 600;
+}
+
+.Footer .ArrowSquareUp:hover {
+
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+}
+
+.Footer .Container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 17px;
+    /* background-color: aliceblue; */
+    /* position: absolute; */
+    width: 100%;
+    height: 455px;
+    margin: 5px 80px;
+    /* background-color: aqua; */
+}
+
+.Footer .Container .Container_Top {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: start;
+    /* background-color: rgb(108, 33, 141); */
+}
+
+.Footer .Container .Container_Top .Icon {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 0px;
+    margin: 0px;
+    align-items: center;
+}
+
+.Footer .Container .Container_Top .Icon ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: censter;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    gap: 30px;
+}
+
+.Footer .Container .Container_Top .Action_Button_Top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ArrowSquareUp:hover {
+    color: #0078f2;
+}
+
+.Footer .Container .Container_Body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: censter;
+    align-items: center;
+    /* background-color: blue; */
+}
+
+.Footer .Container .Container_Body .Container_Body_Copmonents {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: start;
+    align-items: flex-start;
+    width: 100%;
+    /* background-color: aquamarine; */
+}
+
+hr {
+    width: 100%;
+    height: 0.2px;
+    border: none;
+    color: #333333;
+    background-color: #333333;
+    outline: none;
+    margin: 5px;
+}
+
+li {
+    list-style: none;
+}
+
+.one,
+.tow,
+.three,
+.four,
+.five {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+
+.Container_Body_Copmonents div h4:hover {
+    cursor: pointer;
+    color: #0078f2;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.Container_Body_Copmonents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.Container_Body_Copmonents_Info {
+    padding-right: 730px;
+    /* background-color: rgb(265, 20, 20); */
+}
+
+.Container_Body_Copmonents_Info p {
+    color: #b6c6cc;
+    margin: 0px;
+    padding: 0px;
+    margin: 20px 0px;
+    font-family: 'Source Han Sans CN';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+
+    color: rgba(255, 255, 255, 0.6);
+
+}
+
+.Container_Bottom {
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-items: center;
+}
+
+.Container_Bottom .Container_Bottom_Left {
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    /* /* flex-direction: row; */
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.Container_Bottom .Container_Bottom_Left ul {
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+
+
+}
+
+.Container_Bottom .Container_Bottom_Left li:hover {
+    cursor: pointer;
+    color: #0078f2;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+.Container_Body_Line h4 {
+    padding: 0px;
+    margin: 0px;
+}
+
+.Container_Body_Line {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    gap: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    color: rgba(169, 169, 169, 0.2);
+}
+
+.Container_Bottom .Container_Bottom_Right ul {
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

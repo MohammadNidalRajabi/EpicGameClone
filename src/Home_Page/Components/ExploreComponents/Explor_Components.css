@@ -1,0 +1,53 @@
+.Continer_ExploreComp
+{
+    margin: 100PX 0PX;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    width: 100%;
+    height: 500px;
+    gap: 40px;
+    
+}
+.Continer_ExploreComp img
+{
+    width: 60%;
+    height: 100%;
+    border: none;
+    border-radius: 16px;
+    cursor: pointer;
+}
+.Continer_ExploreComp .Info
+{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+}
+.Continer_ExploreComp .Info h2
+{
+    margin: 0px;
+    font-weight: 400;
+    color: white;
+}
+.Continer_ExploreComp .Info h3
+{
+    margin: 0px;
+    font-weight: 400;
+    color: rgba(245, 245, 245, 0.6);
+
+}
+.Continer_ExploreComp .Info button
+{
+    font-weight: 300;
+    cursor: pointer;
+    padding: 16px;
+    border-radius: 4px;
+    margin: 0px;
+    font-weight: 400;
+    color: black
+
+}

@@ -1,0 +1,28 @@
+.db{
+    margin: 5px;
+    display: flex;
+    background-color: #121212;
+    color: #fff;
+    /* width:100px;
+    height: 100px; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1.5px solid rgb(42 ,42, 42);
+
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.col1{
+    color: rgb(127 140 127);
+    margin-top: 15px;
+    color: #fff;
+
+}
+/* br{
+    color: rgb(42 ,42, 42);
+} */

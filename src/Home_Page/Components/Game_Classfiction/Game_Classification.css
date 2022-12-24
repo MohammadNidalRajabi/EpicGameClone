@@ -1,0 +1,134 @@
+.Container_Game_Classification {
+    /* background-color: red; */
+    width: 100%;
+
+    padding: 30px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.Container_Game_Classification h2 {
+    padding: 0px;
+    margin: 0px;
+    margin-left: 5px;
+    color: white;
+    font-weight: 300;
+}
+
+.Container_Game_Classification .Left {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.Container_Game_Classification .Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.Container_Game_Classification button {
+    background-color: #121212;
+    color: white;
+    padding: 5px 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid white;
+    transition: opacity 200ms;
+    border-radius: 4px;
+    opacity: 100%;
+    margin-right: 5px;
+}
+
+.Container_Game_Classification button:hover {
+    cursor: pointer;
+    background-color: #4a4a4a;
+}
+
+.Container_Game_Classification .Center {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border-left: 1px solid rgb(82, 82, 82);
+    border-right: 1px solid rgb(82, 82, 82);
+}
+
+.Container_Game_Classification .Right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+
+.Continer {
+    display: flex;
+    height: 80%;
+    width: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.Continer .Item_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 10px 13px;
+    gap: 30px;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    /* background: #363636;  */
+    margin-bottom: 5px;
+
+}
+
+.Info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+}
+
+.Continer :hover {
+    cursor: pointer;
+    background: #2a2a2a;
+}
+
+.Item_Container .Info h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    width: 140px;
+    color: #F5F5F5;
+    text-align: start;
+    margin: 0px;
+}
+
+.Item_Container img {
+    width: 20%;
+    height: 90%;
+    border-radius: 8px;
+
+}
